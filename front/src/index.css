@@ -1,0 +1,31 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css); 
+
+@font-face {
+  font-family: 'Futura';
+  src: url('/fonts/Futura Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Digital-7';
+  src: url('/fonts/digital-7.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* font-family: 'Noto Sans Japanese', sans-serif;  */
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+a {
+  color: #fff;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

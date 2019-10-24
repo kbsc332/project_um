@@ -1,0 +1,156 @@
+{
+    "defaultMiningValue" : 1500,
+    "bitcoinConfirmBlockHeight": 6,
+    "hierarchyMining" : [
+        {
+            "rate": 1.0
+        },
+        {
+            "rate": 0.5
+        },
+        {
+            "rate": 0.1
+        },
+        {
+            "rate": 0.1
+        },
+        {
+            "rate": 0.1
+        },
+        {
+            "rate": 0.1
+        },
+        {
+            "rate": 0.1
+        }
+    ],
+    "event":{
+        "roulette": {
+            "needBitcoin": 3000,
+            "reward": [
+                {
+                    "index": 1,
+                    "speed": 15000
+                },
+                {
+                    "index": 2,
+                    "speed": 30000
+                },
+                {
+                    "index": 3,
+                    "speed": 15000
+                },
+                {
+                    "index": 4,
+                    "speed": 30000
+                },
+                {
+                    "index": 5,
+                    "speed": 0
+                },
+                {
+                    "index": 6,
+                    "speed": 30000
+                },
+                {
+                    "index": 7,
+                    "speed": 15000
+                },
+                {
+                    "index": 8,
+                    "speed": 0
+                }
+            ]
+        },
+        "dice":{
+            "needBitcoin": 15000,
+            "rewardBitcoin":  30000,
+            "probability": 0.4
+        }
+
+    },
+    "review":[
+        {
+            "name":"review.first.name",
+            "miningBTC": 2.7,
+            "icon": "images/review_icon_1.png",
+            "description": "review.first.description"
+        },
+        {
+            "name":"review.second.name",
+            "miningBTC": 4.7,
+            "icon": "images/review_icon_2.png",
+            "description": "review.second.description"
+        }
+    ],
+    "point": [
+        {
+            "um":5000000,
+            "btc":5000000
+        },
+        {
+            "um":10000000,
+            "btc":10000000
+        },
+        {
+            "um":50000000,
+            "btc":50000000
+        },
+        {
+            "um":100000000,
+            "btc":100000000
+        },
+        {
+            "um":200000000,
+            "btc":200000000
+        },
+        {
+            "um":300000000,
+            "btc":300000000
+        }
+    ],
+    "packageData": [
+        {
+            "index": 1,
+            "icon": "./assets/package_1.png",
+            "title": "Basic",
+            "volume": 15000,
+            "price": 5000000
+        },
+        {
+            "index": 2,
+            "icon": "./assets/package_2.png",
+            "title": "Standard",
+            "volume": 30000,
+            "price": 10000000
+        },
+        {
+            "index": 3,
+            "icon": "./assets/package_3.png",
+            "title": "Comfort",
+            "volume": 150000,
+            "price": 50000000
+        },
+        {
+            "index": 4,
+            "icon": "./assets/package_4.png",
+            "title": "Extended",
+            "volume": 300000,
+            "price": 100000000
+        },
+        {
+            "index": 5,
+            "icon": "./assets/package_5.png",
+            "title": "Premium",
+            "volume": 600000,
+            "price": 200000000
+        },
+        {
+            "index": 6,
+            "icon": "./assets/package_6.png",
+            "title": "Pro",
+            "volume": 1200000,
+            "price": 300000000
+        }
+    ]
+}

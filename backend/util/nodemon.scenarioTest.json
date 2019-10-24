@@ -1,0 +1,7 @@
+{
+    "watch": ["scenarioTest"],
+    "ext": "ts",
+    "ignore": ["spec/support"],
+    "exec": "cross-env ENV_FILE=test ts-node -r ./env -r tsconfig-paths/register ./scenarioTest/signup.ts"
+  }
+  

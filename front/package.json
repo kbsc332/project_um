@@ -1,0 +1,63 @@
+{
+  "name": "um",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/core-js": "^2.5.2",
+    "@types/jest": "24.0.17",
+    "@types/node": "12.7.2",
+    "@types/react": "16.9.1",
+    "@types/react-dom": "16.8.5",
+    "@types/react-router-dom": "^4.3.4",
+    "@types/set-interval-async": "^1.0.0",
+    "@types/styled-components": "^4.1.18",
+    "antd": "^3.22.0",
+    "apollo-boost": "^0.4.4",
+    "apollo-client": "^2.6.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "concurrently": "^4.1.2",
+    "core-js": "^3.2.1",
+    "es5-shim": "^4.5.13",
+    "graphql": "^14.5.3",
+    "http-proxy-middleware": "^0.19.1",
+    "immer": "^3.2.0",
+    "react": "^16.9.0",
+    "react-apollo": "^3.0.1",
+    "react-app-polyfill": "^1.0.3",
+    "react-device-detect": "^1.9.10",
+    "react-dom": "^16.9.0",
+    "react-intl": "^3.1.11",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "redoox": "^0.1.6",
+    "redux-react-session": "^2.6.0",
+    "reselect": "^4.0.0",
+    "set-interval-async": "^1.0.29",
+    "styled-components": "^4.3.2",
+    "typescript": "3.5.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start-dev": "concurrently \"npm run start-dev --prefix \"../backend\"\" \"npm start\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      ">0.2%",
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
