@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "apollo-server": "^2.8.1",
-    "apollo-server-express": "^2.8.1",
+    "apollo-server-express": "^2.14.2",
     "console-stamp": "^0.2.9",
     "cookie-parser": "^1.4.4",
     "cross-env": "^5.2.0",
