@@ -21,7 +21,7 @@
     "es5-shim": "^4.5.13",
     "graphql": "^14.5.3",
     "http-proxy-middleware": "^0.19.1",
-    "immer": "^3.2.0",
+    "immer": "^8.0.1",
     "react": "^16.9.0",
     "react-apollo": "^3.0.1",
     "react-app-polyfill": "^1.0.3",
