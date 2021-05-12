@@ -31,7 +31,7 @@
     "mariadb": "^2.1.0",
     "module-alias": "^2.2.1",
     "morgan": "^1.9.1",
-    "nodemailer": "^6.3.1",
+    "nodemailer": "^6.4.16",
     "nodemailer-smtp-transport": "^2.7.4",
     "redis-typescript": "^0.1.2",
     "reflect-metadata": "^0.1.13",
