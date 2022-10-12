@@ -15,7 +15,7 @@
     "@server": "dist/Server"
   },
   "dependencies": {
-    "apollo-server": "^2.8.1",
+    "apollo-server": "^2.25.4",
     "apollo-server-express": "^2.8.1",
     "console-stamp": "^0.2.9",
     "cookie-parser": "^1.4.4",
